@@ -13,16 +13,12 @@ git clone https://github.com/yourusername/python-db-k8s.git
 # Navigate to the project directory
 cd python-db-k8s
 
-# Install dependencies
-pip install -r requirements.txt
-```
+# Create docker image 
+docker build -t python-postgres-k8s-test:1.0 .
 
-## Usage
-Instructions on how to use the project.
-
-```bash
-# Example command to run the project
-python main.py
+# Push docker image to docker registry
+docker tag python-postgres-k8s-test:1.0 <dockerhub-user>/python-postgres-k8s-test:1.0
+docker push chailearngke/python-postgres-k8s-test:1.0
 ```
 
 ## Deployment to EKS
