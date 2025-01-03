@@ -69,7 +69,5 @@ Ensure the application is accessible.
 **Access the Application:**
    - Retrieve the external IP address of the service.
    - Open a web browser and navigate to the external IP.
-     http://<external-ip>
+     'http://<external-ip>/db-test'
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
