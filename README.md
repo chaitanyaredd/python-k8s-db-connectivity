@@ -69,5 +69,5 @@ Ensure the application is accessible.
 **Access the Application:**
    - Retrieve the external IP address of the service.
    - Open a web browser and navigate to the external IP.
-     'http://<external-ip>/db-test'
+     'http://external-ip-service/db-test'
 
